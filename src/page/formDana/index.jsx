@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const RequestForm = () => {
     // State untuk Jenis Pengajuan (menentukan form mana yang tampil)
@@ -78,9 +79,9 @@ const RequestForm = () => {
                     {/* Header */}
                     <div className="bg-gray-50 border-b border-gray-200 px-6 py-4 flex justify-between items-center">
                         <h3 className="text-xl font-bold text-gray-700">Form Pengajuan Request</h3>
-                        <a href="https://lotusprakasalines.com/admin/request_pr" className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded-md transition">
+                        <Link to={"/"} className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded-md transition">
                             <i className="fa fa-arrow-circle-left mr-2"></i> Kembali
-                        </a>
+                        </Link>
                     </div>
 
                     {/* Body */}

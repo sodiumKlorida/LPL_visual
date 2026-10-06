@@ -67,7 +67,7 @@ const DataKasMasuk = () => {
                     {/* HEADER & TOMBOL TAMBAH */}
                     <div className="flex flex-col md:flex-row justify-between items-center mb-6 gap-4">
                         <h3 className="text-2xl font-bold text-gray-800">Data Kas Masuk</h3>
-                        <Link to="/kas-masuk/add" className="inline-flex items-center bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white text-sm font-bold px-5 py-2.5 rounded-full shadow transition-all duration-200">
+                        <Link to="/" className="inline-flex items-center bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white text-sm font-bold px-5 py-2.5 rounded-full shadow transition-all duration-200">
                             <i className="fa fa-plus-circle mr-2"></i> Tambah Data
                         </Link>
                     </div>

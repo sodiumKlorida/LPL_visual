@@ -1,6 +1,7 @@
 import BerandaPage from "./Beranda"
 import RequestForm from "./formDana"
 import ListTanggal from "./ListTanggal"
+import DataKasMasuk from "./formKas"
 
 function Base() {
     return (
@@ -22,4 +23,11 @@ function Tanggal() {
     )
 }
 
-export {Base, FormPengajuan, Tanggal}
+function Kas() {
+    
+    return (
+        <DataKasMasuk />
+    )
+}
+
+export {Base, FormPengajuan, Tanggal, Kas}
